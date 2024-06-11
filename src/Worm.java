@@ -1,14 +1,11 @@
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
-import java.io.File;
-import java.io.IOException;
 
 public class Worm {
     private Image right;
     private Image left;
+    private Image swordRight;
+    private Image swordLeft;
     private double x;
     private double y;
     private double velocityY = 0;
@@ -20,12 +17,14 @@ public class Worm {
     public boolean isJumping;
     private final int base = 290;
     private final int maxHeight = 330;
-    public Worm(String right, String left) {
+    public Worm(String right, String left, String swordRight, String swordLeft) {
         fRight = true;
         x = 400;
         y = 290;
         this.right = new ImageIcon(right).getImage();
         this.left = new ImageIcon(left).getImage();
+        this.swordLeft = new ImageIcon(swordLeft).getImage();
+        this.swordRight = new ImageIcon(swordRight).getImage();
     }
 
     public int getX() {
@@ -87,10 +86,18 @@ public class Worm {
         }
     }
     public Image getWorm() {
-        if (fRight) {
-            return right;
+        if (!GameScreen.hasWeapon) {
+            if (fRight) {
+                return right;
+            } else {
+                return left;
+            }
         } else {
-            return left;
+            if (fRight) {
+                return swordRight;
+            } else {
+                return swordLeft;
+            }
         }
     }
     public Rectangle wormRect() {

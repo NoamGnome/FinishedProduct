@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18aae1e6-2706-4ed9-8449-d77e15eb8d15" name="Changes" comment="" />
+    <list default="true" id="18aae1e6-2706-4ed9-8449-d77e15eb8d15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinishedProduct.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/New Piskel-1.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Worm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attackRight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nextButton1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nextButton2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/secondImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/startButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swordIdleLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swordIdleRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swordImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thirdImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormL (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormLGif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormLongJumpLGIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormLongJumpLONEGIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormLongJumpRGIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormLongJumpRONEGIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordAttackLeft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordAttackRight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordLeft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordRight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormSwordRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkGIFSwordLeft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkGIFSwordRight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkLGIF (1).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkLGIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkRGIF (1).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wormWalkRGIF.gif" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -18,11 +70,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Noam Coll/IdeaProjects/FinishedProduct/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Noam Coll\IdeaProjects\FinishedProduct\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,16 +92,5 @@
       <updated>1718057245121</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
